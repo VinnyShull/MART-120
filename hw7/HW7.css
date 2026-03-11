@@ -1,0 +1,128 @@
+/* ── External Stylesheet: styles.css ── */
+
+/* General reset */
+* {
+  box-sizing: border-box;
+}
+
+/* Affects <body> tag */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Affects <nav> tag */
+nav {
+  background-color: #222;
+  padding: 12px 20px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+}
+
+/* Affects <a> inside nav */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Affects <footer> tag */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+/* Affects <h1> tag */
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* Affects <h2> tag */
+h2 {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+/* Affects <p> tag */
+p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+/* Affects <ul> and <ol> tags */
+ul, ol {
+  padding-left: 25px;
+  line-height: 2;
+}
+
+/* ── CLASS SELECTORS ── */
+
+/* .highlight-link — affects <a> tags in lists */
+.highlight-link {
+  color: #cc0000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.highlight-link:hover {
+  text-decoration: underline;
+  color: #990000;
+}
+
+/* .section-box — affects <div> or <section> containers */
+.section-box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+/* .page-intro — affects <p> intro text */
+.page-intro {
+  font-size: 16px;
+  color: #555;
+  font-style: italic;
+}
+
+/* ── ID SELECTORS ── */
+
+/* #main-heading — affects the main <h1> on the page */
+#main-heading {
+  color: #222;
+  border-left: 5px solid #cc0000;
+  padding-left: 12px;
+}
+
+/* #hobbies-list — affects the hobbies <ul> */
+#hobbies-list {
+  background-color: #fff8f0;
+  border: 1px solid #f0d9c0;
+  border-radius: 6px;
+  padding: 12px 12px 12px 35px;
+}
+
+/* #websites-list — affects the websites <ol> */
+#websites-list {
+  background-color: #f0f8ff;
+  border: 1px solid #c0d9f0;
+  border-radius: 6px;
+  padding: 12px 12px 12px 35px;
+}
