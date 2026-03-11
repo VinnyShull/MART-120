@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vinny's Homepage</title>
+
+  <!-- Requirement 3: External stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Requirement 2: Embedded styles affecting at least 3 tags -->
+  <style>
+    /* Embedded: affects <header> tag */
+    header {
+      background-color: #cc0000;
+      color: white;
+      padding: 18px 20px;
+      border-radius: 6px;
+      margin-bottom: 24px;
+    }
+
+    /* Embedded: affects <li> tag */
+    li {
+      font-size: 15px;
+    }
+
+    /* Embedded: affects <h2> tag */
+    h2 {
+      color: #cc0000;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="story.html">Story</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Requirement 1: Inline style #1 — letter-spacing on header -->
+  <header style="letter-spacing: 1px;">
+    <h1 id="main-heading">Welcome to Vinny's Homepage!</h1>
+  </header>
+
+  <!-- Requirement 1: Inline style #2 — font-size on intro paragraph -->
+  <p class="page-intro" style="font-size: 17px;">Hi, I'm Vinny. Here are some things about me.</p>
+
+  <div class="section-box">
+    <h2>My Favorite Hobbies &amp; Activities</h2>
+    <ul id="hobbies-list">
+      <li>Lifting</li>
+      <li>Skateboarding</li>
+    </ul>
+  </div>
+
+  <div class="section-box">
+    <h2>My Favorite Restaurants</h2>
+    <ul>
+      <li><a class="highlight-link" href="https://www.pandaexpress.com" target="_blank">Panda Express</a></li>
+      <li><a class="highlight-link" href="https://www.jimmyjohns.com" target="_blank">Jimmy John's</a></li>
+      <li><a class="highlight-link" href="https://www.tacobell.com" target="_blank">Taco Bell</a></li>
+    </ul>
+  </div>
+
+  <div class="section-box">
+    <h2>My Favorite Websites</h2>
+    <ol id="websites-list">
+      <li><a class="highlight-link" href="https://www.ivankobarbell.com" target="_blank">Ivanko Barbell Company</a></li>
+    </ol>
+  </div>
+
+  <footer>&copy; 2026 Vinny's Homepage</footer>
+
+</body>
+</html>
