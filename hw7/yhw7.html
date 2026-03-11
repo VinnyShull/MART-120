@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vinny's Story</title>
+
+  <!-- Requirement 3: External stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Requirement 2: Embedded styles affecting at least 3 tags -->
+  <!-- Requirement 7: Background image added via CSS on this page -->
+  <style>
+    /* Embedded: affects <body> — background image requirement */
+    body {
+      background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&auto=format&fit=crop&q=60');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+    }
+
+    /* Embedded: affects <main> tag — semi-transparent overlay so text is readable */
+    main {
+      background-color: rgba(255, 255, 255, 0.92);
+      border-radius: 8px;
+      padding: 24px;
+    }
+
+    /* Embedded: affects <h2> tag */
+    h2 {
+      color: #cc0000;
+    }
+
+    /* Embedded: affects <em> tag */
+    em {
+      color: #333;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="story.html">Story</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h1 id="main-heading">My Favorite Story</h1>
+    <p class="page-intro" style="font-size: 16px;">A summary of a story I love.</p>
+
+    <div class="section-box">
+      <h2>The Alchemist — by Paulo Coelho</h2>
+      <!-- Inline style on the blockquote -->
+      <blockquote style="border-left: 4px solid #cc0000; padding-left: 14px; color: #555; font-style: italic; margin: 0 0 16px 0;">
+        "And, when you want something, all the universe conspires in helping you to achieve it."
+      </blockquote>
+      <p>
+        The Alchemist follows a young shepherd named Santiago who dreams of finding treasure
+        near the Egyptian pyramids. He leaves behind his comfortable life in Spain and sets off
+        on a journey across North Africa in search of his dream.
+      </p>
+      <p>
+        Along the way he meets many interesting people, including a king, a crystal merchant,
+        and an alchemist who becomes his teacher. Each person teaches him something new about
+        life, courage, and listening to his heart.
+      </p>
+      <p>
+        The main lesson of the story is that if you truly want something, the universe will help
+        you achieve it — but you have to be brave enough to pursue it. By the end of the journey,
+        Santiago realizes the real treasure was never just gold, but everything he learned and
+        became along the way.
+      </p>
+    </div>
+
+    <h2>Images I Like</h2>
+    <div id="hobbies-list" style="display: flex; gap: 15px; flex-wrap: wrap; background: none; border: none; padding: 0;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+           alt="Starry Night by Van Gogh"
+           style="width: 220px; height: 150px; object-fit: cover; border-radius: 6px; border: 1px solid #ccc;" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Empire_State_Building_%28aerial_view%29.jpg/800px-Empire_State_Building_%28aerial_view%29.jpg"
+           alt="Empire State Building"
+           style="width: 220px; height: 150px; object-fit: cover; border-radius: 6px; border: 1px solid #ccc;" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Golden_Gate_Bridge_20100906.jpg/1280px-Golden_Gate_Bridge_20100906.jpg"
+           alt="Golden Gate Bridge"
+           style="width: 220px; height: 150px; object-fit: cover; border-radius: 6px; border: 1px solid #ccc;" />
+    </div>
+  </main>
+
+  <footer>&copy; 2026 Vinny's Homepage</footer>
+
+</body>
+</html>
