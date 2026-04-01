@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Self Portrait</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
-  <style>
-    body { margin: 0; display: flex; justify-content: center; background: #1a1a1a; }
-  </style>
-</head>
-<body>
-<script>
-function setup() {
-  createCanvas(420, 620);
-  noLoop();
-}
-
 function draw() {
   background(245, 235, 210);
 
