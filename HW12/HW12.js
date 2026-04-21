@@ -14,13 +14,13 @@ var obs1Y = 120;
 var obs1SpeedX = 2;
 var obs1SpeedY = 1;
 
-// obstacle 2 - moving red square
+// obstacle 2 
 var obs2X = 380;
 var obs2Y = 150;
 var obs2SpeedX = 1;
 var obs2SpeedY = 3;
 
-// obstacle 3 - stationary green circle
+// obstacle 3 
 var obs3X = 250;
 var obs3Y = 300;
 
